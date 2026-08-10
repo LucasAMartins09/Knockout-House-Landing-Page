@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Krona One', sans-serif;
+  color: #1a2a6c;
+  background-color: #ffffff;
+}
+
+hr{
+  color: #1a2a6c;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  border-bottom: 1px solid #d9d9d9;
+  font-size: 14px;
+}
+
+.topbar-logo {
+  font-weight: bold;
+}
+
+.topbar-logo img{
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+
+.topbar-boas-vindas {
+  color: #1a2a6c;
+  font-family: 'Khula', sans-serif;
+}
+
+
+.cabecalho {
+  text-align: center;
+  padding: 40px 5% 20px;
+}
+
+.cabecalho h1 {
+  font-family: 'Khula', sans-serif;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.cabecalho p {
+  color: #cc1f1f;
+  font-weight: bold;
+  
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+
+.secao {
+  padding: 30px 5%;
+}
+
+
+.hero {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-imagem {
+  flex: 1.5;
+  overflow: hidden;
+}
+
+.hero-destaque {
+  flex: 1;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.hero-destaque h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero-destaque p {
+  color: #555555;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+
+.cta-central {
+  text-align: center;
+  padding: 20px 5%;
+}
+
+.btn-cta {
+  background-color: #cc1f1f;
+  color: #ffffff;
+  border: none;
+  padding: 16px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  
+}
+
+
+.produtos {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.produto-card {
+  flex: 1;
+}
+
+.produto-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.produto-card h4 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.preco {
+  color: #cc1f1f;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.estrelas {
+  color: #f5a623;
+  font-size: 14px;
+}
+
+
+.oferta {
+  background-color: #1a2a6c;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 40px 5%;
+  text-align: center;
+  margin: 30px 5%;
+}
+
+.oferta h2 {
+  font-family: 'Khula', sans-serif;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.oferta p {
+  color: #d9d9d9;
+  margin-bottom: 20px;
+}
+
+
+.contador {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contador-item {
+  background-color: #1a2a6c;
+  padding: 12px 18px;
+  border-radius: 6px;
+  min-width: 65px;
+}
+
+.contador-item span {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contador-item small {
+  font-size: 11px;
+  color: #d9d9d9;
+  text-transform: uppercase;
+}
+
+
+.produto-destaque {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.produto-destaque img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.produto-destaque h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.produto-destaque p {
+  color: #555555;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+
+.depoimentos {
+  background-color: #f4f4f4;
+  padding: 40px 5%;
+}
+
+.depoimentos h2 {
+  text-align: center;
+  font-family: 'Krona One', sans-serif;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.lista-depoimentos {
+  display: flex;
+  gap: 20px;
+}
+
+.depoimento-card {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.depoimento-card p {
+  font-size: 14px;
+  color: #555555;
+  margin: 10px 0;
+}
+
+.depoimento-card strong {
+  font-size: 13px;
+}
+
+
+.garantias {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  padding: 40px 5%;
+}
+
+.garantia-card {
+  flex: 1;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 25px 15px;
+}
+
+.garantia-card .icone {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.garantia-card h4 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.garantia-card p {
+  font-size: 13px;
+  color: #555555;
+}
+
+
+.redes-sociais {
+  text-align: center;
+  padding: 20px 5% 40px;
+}
+
+.redes-sociais p {
+  margin-bottom: 15px;
+  color: #555555;
+}
+
+.icones-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icones-sociais a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #1a2a6c;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+.rodape {
+  background-color: #1a2a6c;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 5%;
+  font-size: 14px;
+}
+
+.rodape strong {
+  display: block;
+  font-family: 'Krona One', sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
