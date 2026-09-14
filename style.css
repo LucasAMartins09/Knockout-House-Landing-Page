@@ -1,3 +1,22 @@
+  :root {
+    --cor-azul: #1a2a6c;
+    --cor-vermelho: #cc1f1f;
+    --cor-texto-escuro: #555555;
+    --cor-borda-cinza: #d9d9d9;
+    --bg-pagina: #ffffff;
+    --bg-cinza-claro: #f4f4f4;
+    --bg-card-depoimento: #ffffff;
+  }
+  
+  [data-theme="dark"] {
+    --cor-azul: #ffffff;             
+    --cor-vermelho: #ff4d4d;         
+    --cor-texto-escuro: #b0b3b8;     
+    --cor-borda-cinza: #3a3b3c;      
+    --bg-pagina: #121212;            
+    --bg-cinza-claro: #1e1e1e;       
+    --bg-card-depoimento: #242526;   
+  }
 * {
   margin: 0;
   padding: 0;
